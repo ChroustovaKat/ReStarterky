@@ -77,6 +77,23 @@ h6 {
     padding: 0;
 }
 
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #756158;
+}
+
 section {
     margin: 0;
     padding: 0;
