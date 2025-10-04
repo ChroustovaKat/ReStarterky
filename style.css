@@ -103,6 +103,41 @@ padding: 50px 15%;
 
 }
 
+.foto-pruvodce {width: 350px;
+border-radius: 0 50px 50px 50px;
+    float: right;
+    margin: 0 0 30px 30px;
+    width: 22%;
+}
+table {
+    border-spacing: 50;
+}
+
+th {padding: 10px;}
+td {
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+.cena {
+    text-align: right;
+    padding-left: 50px;
+}
+th, td {
+    vertical-align: middle;
+    
+}
+
+.orientacni {color: coral;
+    text-align: middle;
+}
+
+th:first-child { 
+  text-align: left;}
+
+  th:last-child {
+  text-align: right;
+}
 
 /*
 font-family: 'Raleway', sans-serif;
