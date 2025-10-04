@@ -1,14 +1,59 @@
 body {
-    background-color: #fff1e6
+    background-color: #fff1e6;
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #282425
 }
 
-.fotografie,.kontakt {
-    background-color: #f9e3d0;
+h1,
+h2,
+h3 {
+    font-family: Playfair Display;
+    font-style: italic;
+    color: #756158
 }
 
-.menu,.paticka {
-    background-color: #282425;
+a {
+    font-style: italic;
 }
+
+h4,
+h5,
+h6 {
+    color: #756158
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: white
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.fotografie,
+.kontakt {
+    background-color: #f9e3d0
+}
+
+.menu,
+.paticka {
+    background-color: #282425
+}
+
+.paticka {
+    color: white;
+    text-align: center
+}
+
 /*
 font-family: 'Raleway', sans-serif;
 font-family: 'Playfair Display', serif;
