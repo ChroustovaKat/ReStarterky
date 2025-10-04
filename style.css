@@ -3,57 +3,73 @@ body {
     font-family: Raleway;
     font-size: 20px;
     line-height: 1.5;
-    color: #282425
-}
-
-h1,
-h2,
-h3 {
-    font-family: Playfair Display;
-    font-style: italic;
-    color: #756158
+    color: #282425;
+    margin: 0;
 }
 
 a {
     font-style: italic;
 }
 
-h4,
-h5,
-h6 {
-    color: #756158
-}
-
 h1 {
+    font-family: Playfair Display;
+    font-style: italic;
+    color: #756158;
     font-size: 80px;
     text-align: center;
-    color: white
+    color: white;
+    margin: 0;
 }
 
 h2 {
+    font-family: Playfair Display;
+    font-style: italic;
+    color: #756158;
     font-size: 48px;
     text-align: center;
+    margin-top: 0;
 }
 
 h3 {
+    font-family: Playfair Display;
+    font-style: italic;
+    color: #756158;
     font-size: 24px;
+    margin-top: 36px;
+}
+
+h4,
+h5,
+h6 {
+    color: #756158;
 }
 
 .fotografie,
 .kontakt {
-    background-color: #f9e3d0
+    background-color: #f9e3d0;
 }
 
 .menu,
 .paticka {
-    background-color: #282425
+    background-color: #282425;
 }
 
 .paticka {
     color: white;
-    text-align: center
+    text-align: center;
+    padding: 20px 0;
 }
 
+.menu {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
 /*
 font-family: 'Raleway', sans-serif;
 font-family: 'Playfair Display', serif;
