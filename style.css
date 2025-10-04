@@ -19,7 +19,18 @@ h1 {
     text-align: center;
     color: white;
     margin: 0;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
 }
+
+.hlavicka {
+    padding: 150px 30px;
+    background-image: url(obrazky/hlavicka.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
 
 h2 {
     font-family: Playfair Display;
@@ -67,8 +78,29 @@ h6 {
 }
 
 section {
-    margin: 0;
-    padding: 0;
+padding: 50px 15%;
+}
+
+.foto-kontakt {
+    width: 25%;
+    border-radius: 50px 0 50px 50px;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.foto-omne {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 30px 30px 0;
+
+}
+
+.foto-omne-dej-vlevo {
+    float: left;
+    margin: 0 30px 30px 0
+
+
 }
 
 .foto-pruvodce {width: 350px;
@@ -106,7 +138,65 @@ th:first-child {
   th:last-child {
   text-align: right;
 }
+
 /*
 font-family: 'Raleway', sans-serif;
 font-family: 'Playfair Display', serif;
 */
+
+/*.fotografie img {
+  width: 30%;
+  height: auto;
+  border: 2px solid #756158;
+  border-radius: 10px;
+}
+  */
+
+/* Styling samotné sekce pro centrování obsahu */
+.fotografie {
+    text-align: center;
+}
+
+/* 1. Nastavení kontejneru jako CSS Grid */
+.galerie-kontejner {
+    display: grid;
+    /* Vytvoří 3 stejně široké sloupce. '1fr' znamená 1 fraction (podíl). */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Mezera mezi jednotlivými fotkami */
+    margin-top: 30px;
+}
+
+/* 2. Styly pro jednotlivé fotky */
+.galerie-kontejner img {
+    /* Fotky vyplní celou buňku, 'object-fit' zajistí, že se nedeformují */
+    width: 100%;
+    height: 300px; /* Pevná výška, aby buňky gridu byly stejné */
+    object-fit: cover;
+    
+    border: 2px solid #756158;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    /* Přechod pro lepší efekt při hoveru */
+    transition: transform 0.3s ease-in-out; 
+}
+
+/* 3. Responzivita (pro mobilní telefony) */
+@media (max-width: 768px) {
+    .galerie-kontejner {
+        /* Na menších obrazovkách přepneme na 2 sloupce */
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .galerie-kontejner {
+        /* Na nejmenších obrazovkách 1 sloupec */
+        grid-template-columns: 1fr;
+    }
+}
+
+/* 4. Interaktivní efekt */
+.galerie-kontejner img:hover {
+    transform: scale(1.05); /* Lehce zvětší obrázek při najetí myši */
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.4);
+    cursor: zoom-in;
+}
