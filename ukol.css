@@ -1,7 +1,14 @@
+
+/* 
+    Verča - DONE
+*/
 h1 {
     text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
     }
 
+/* 
+    Anička
+*/
 .foto-omne {
     width: 200px;
     border-radius: 50%;
@@ -9,13 +16,17 @@ h1 {
     margin: 0 30px 30px 0;
 }
 
+/* 
+    Světlana
+*/
 .fotogalerie img {
     width: 32%;
     border: 2px solid #756158;
     border-radius: 10px;
 }
 
-/* 
+/* Míša
+
     Obrázek v sekci Turistický pruvodce 
     Nastav sirku: 350px
     Zkus vlastni radius
@@ -28,17 +39,22 @@ h1 {
 }
 
 /* 
+    Katka
+
     Obrázek v sekci Kontakt
     Nastav sirku: 350px
     Zkus vlastni radius
 */
+
 .foto-kontakt {
     border-radius: 50px 0 50px 50px;
     float: left;
     margin: 0 30px 30px 0;
 }
 
-
+/* 
+    Míša
+*/
 table {
     border-spacing: 0;
 }
@@ -53,32 +69,50 @@ td {
 /* 
     Nezapomen si nize uvedene classy nastavit
 */
+
+/* 
+    Míša
+*/
 .cena {
     text-align: right;
     padding-left: 50px;
 }
 
+/* 
+    Anička
+*/
 .foto-omne-dej-vlevo {
     float: left;
     margin: 0 30px 30px 0;
 }
 
+/* 
+    Míša
+*/
 .foto-pruvodce-dej-vpravo {
     float: right;
     margin: 0 0 30px 30px;
 }
 
+/* 
+    Katka
+*/
 .foto-kontakt-dej-vlevo {
     float: left;
     margin: 0 30px 30px 0;
 }
 
-
+/* 
+    Světla
+*/
 section {
     padding: 50px 15%;
     overflow: auto;
 }
 
+/* 
+    Verča
+*/
 .hlavicka {
     padding: 150px 30px;
     background-image: url(obrazky/hlavicka.jpg);
@@ -87,10 +121,16 @@ section {
     background-size: cover;
 }
 
+/* 
+    Verča
+*/
 .menu li {
     display: inline-block;
 }
 
+/* 
+    Verča
+*/
 .menu a {
     display: inline-block;
     color: white;
@@ -98,6 +138,9 @@ section {
     padding: 20px 30px;
 }
 
+/* 
+    Verča
+*/
 .menu a:hover,
 .menu a:focus,
 .menu a:active {
